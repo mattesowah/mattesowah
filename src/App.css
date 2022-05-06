@@ -44,6 +44,7 @@ section {
 
 .section-5 {
   position: relative;
+  height: 130vh;
 }
 
 
@@ -51,6 +52,10 @@ section {
   position: absolute;
   bottom: 0px;
   padding: 100px 0px;
+}
+
+.contact-section {
+  padding: 200px 0px;
 }
 
 .rights {
