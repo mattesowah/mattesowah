@@ -7,6 +7,10 @@ const navbar = () => {
        <div className="logo">
         <img className="logo" src="/assets/logo.svg" alt="Logo"/>
        </div>
+
+      <div>
+        <img className='search' src="/assets/search.svg" alt="Search"/>  
+      </div> 
        
       <div className='navlinks'>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >ABOUT</a></p>
