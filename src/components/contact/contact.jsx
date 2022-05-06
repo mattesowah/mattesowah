@@ -25,7 +25,7 @@ const contact = () => {
           In 2021 Matte would enforce his skill in design through learning to code in JavaScript and develop scalable projects that can be tested & maintained.   
       </p>
       <p className='p6'>
-          For Software Development and Creative Direction enquiries please feel free to contact Matte at:
+          For Software Development and Creative Direction enquiries contact Matte at
       </p>
       <p className='p7'>
           contact@mattesowah.com
