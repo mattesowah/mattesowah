@@ -4,13 +4,15 @@ import './navbar.css'
 const navbar = () => {
   return (
      <div>
-       <div className="logo">
+       <div className='icons'>
+        <div className="logo">
         <img className="logo" src="/assets/logo.svg" alt="Logo"/>
        </div>
 
-      <div>
-        <img className='search' src="/assets/search.svg" alt="Search"/>  
+      <div className='search'>
+        <img className='searchicon' src="/assets/search.svg" alt="Search"/>  
       </div> 
+    </div>
        
       <div className='navlinks'>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >ABOUT</a></p>

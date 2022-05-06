@@ -34,6 +34,8 @@ section {
   scrollbar-width: none;  /* Firefox */
 }
 
+
+
 .container::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
@@ -57,7 +59,7 @@ section {
 
 .section-5 {
   position: relative;
-  height: 140vh;
+  height: 120vh;
 }
 
 

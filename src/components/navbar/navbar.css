@@ -8,10 +8,20 @@
     height: 19px;
   }
 
-.search {
+.searchicon {
   height: 19px;
-
 }  
+
+.search {
+  padding-top: 30px;
+  padding-left: 1225px;
+}
+
+.icons {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
  
 .navitem {
     margin: 2px 20px;
