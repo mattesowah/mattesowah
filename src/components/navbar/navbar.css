@@ -4,13 +4,21 @@
 }
 
 .logo {
-    padding: 15px 15px;
+    padding: 30px 30px;
     height: 19px;
   }
+ 
+  /*.logo {
+    filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
+  }*/
 
 .searchicon {
   height: 19px;
 }  
+
+/*}.searchicon{
+  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
+}*/ 
 
 .search {
   padding-top: 30px;
@@ -29,13 +37,11 @@
 }
 
 .navlinks {
-  padding: 30px 0px;
   text-decoration: none;
   font-family: Helveticas;
 }
 
 .nav-section{
   text-decoration: none;
-  color: black
+  color: black;
 };
-
