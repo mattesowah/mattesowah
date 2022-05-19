@@ -5,7 +5,7 @@ import About from './components/about/about'
 import Engineering from './components/engineering/engineering'
 import Creativedirection from './components/creativedirection/creativedirection'
 import Contact from './components/contact/contact'
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Footer from './components/footer/footer'
 import Store from './components/store/store'
 
@@ -36,9 +36,9 @@ const App = () => {
   return (
     <>
           
-      <Router>
+     
 
-        <Route path="" />
+      
           
           <div className="scroll-progress" id="scroll-progress" style={{ width: `${scrollTop}%` }} ></div>
         
@@ -70,7 +70,7 @@ const App = () => {
               
             </div> 
         
-        </Router>     
+           
     </>
   )
 }

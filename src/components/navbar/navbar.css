@@ -8,21 +8,32 @@
     height: 19px;
   }
  
-  /*.logo {
+  .logo {
     filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
-  }*/
+  }
 
 .searchicon {
-  height: 19px;
+  height: 21px;
 }  
 
-/*}.searchicon{
+.likeicon {
   filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
-}*/ 
+  height: 20px;
+}
+
+.searchicon{
+  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
+}
 
 .search {
   padding-top: 30px;
-  padding-left: 1225px;
+  
+  margin: 0px 30px;
+}
+
+.like {
+  padding-top: 30px;
+  padding-left: 1180px;
 }
 
 .icons {
@@ -43,5 +54,5 @@
 
 .nav-section{
   text-decoration: none;
-  color: black;
+  color: white;
 };

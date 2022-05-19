@@ -9,9 +9,16 @@ const navbar = () => {
         <img className="logo" src="/assets/logo.svg" alt="Logo"/>
        </div>
 
+      
+
+      <div className='like'>
+        <img className='likeicon' src="/assets/like.svg" alt="Like"/>
+      </div>
+
       <div className='search'>
-        <img className='searchicon' src="/assets/search.svg" alt="Search"/>  
+        <img className='searchicon' src="/assets/search.svg" alt="Search"/>    
       </div> 
+
     </div>
        
       <div className='navlinks'>

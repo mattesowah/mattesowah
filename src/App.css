@@ -21,7 +21,7 @@ section {
   display: flex;
   justify-content: center;
   align-items:center;
-  scroll-snap-align: start;
+  scroll-snap-align: end;
 }
 
 .container{
@@ -30,8 +30,6 @@ section {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
 }
 
 
@@ -85,7 +83,7 @@ section {
   justify-content: center;
   font-family: Helvetica, sans-serif;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 45px;
 };
 
 
