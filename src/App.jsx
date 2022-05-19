@@ -4,8 +4,7 @@ import Navbar from './components/navbar/navbar'
 import About from './components/about/about'
 import Engineering from './components/engineering/engineering'
 import Creativedirection from './components/creativedirection/creativedirection'
-import Contact from './components/contact/contact'
-import { Route } from "react-router-dom";
+import Contact from './components/contact/contact';
 import Footer from './components/footer/footer'
 import Store from './components/store/store'
 

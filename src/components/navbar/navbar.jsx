@@ -23,13 +23,13 @@ const navbar = () => {
 
     </div>
        
-      <ul className='navlinks'>
+      <div className='navlinks'>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >ABOUT</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >ENGINEERING</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CREATIVE DIRECTION</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >STORE</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CONTACT</a></p>
-      </ul>
+      </div>
         
        </div>
 

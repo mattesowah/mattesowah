@@ -57,6 +57,7 @@ section {
 
 .navbar {
   position: fixed;
+  z-index: 999;
 }
 
 .section-5 {
