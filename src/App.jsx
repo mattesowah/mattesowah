@@ -13,7 +13,11 @@ const App = () => {
   
   const myRef = useRef();
 useEffect(() => {
-  console.log('myRef', myRef.current)
+  const observer = new IntersectionObserver((entries) => {
+    const entry = entries [0];
+    console.log('entry', entry);
+  })
+  observer.observe(myRef.current)
 }, [])
 
 
