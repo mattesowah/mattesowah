@@ -12,12 +12,15 @@ import Store from './components/store/store'
 const App = () => {
   
   const myRef = useRef();
+  const [visibleElement, setVisibleElement] = useState();
+  console.log('visibleElement', visibleElement)
+
 useEffect(() => {
   const observer = new IntersectionObserver((entries) => {
     const entry = entries [0];
-    console.log('entry', entry);
+    setVisibleElement(entry.isIntersecting)
   })
-  observer.observe(myRef.current)
+  observer.observe(myRef.current);
 }, [])
 
 
