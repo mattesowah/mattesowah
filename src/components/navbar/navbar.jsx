@@ -1,6 +1,8 @@
 import React from 'react'
 import './navbar.css'
 
+
+
 const navbar = () => {
   return (
      <div>
@@ -21,13 +23,13 @@ const navbar = () => {
 
     </div>
        
-      <div className='navlinks'>
+      <ul className='navlinks'>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >ABOUT</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >ENGINEERING</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CREATIVE DIRECTION</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >STORE</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CONTACT</a></p>
-      </div>
+      </ul>
         
        </div>
 

@@ -8,22 +8,22 @@
     height: 19px;
   }
  
-  .logo {
+  /*.logo {
     filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
-  }
+  }*/
 
 .searchicon {
   height: 21px;
 }  
 
 .likeicon {
-  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
+  /*filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);*/
   height: 20px;
 }
 
-.searchicon{
+/*.searchicon{
   filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
-}
+}*/
 
 .search {
   padding-top: 30px;
@@ -50,9 +50,25 @@
 .navlinks {
   text-decoration: none;
   font-family: Helveticas;
+  z-index: 999;
 }
 
 .nav-section{
   text-decoration: none;
-  color: white;
+  color: black;
+  font-weight: 400;
+  z-index: 999;
 };
+
+.changeColor {
+  color: #fff;
+}
+
+.changeColor .logo {
+  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
+}
+
+nav {
+  
+  transition: 200ms ease-in-out;
+}
