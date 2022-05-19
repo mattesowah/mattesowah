@@ -58,7 +58,7 @@ useEffect(() => {
         
         <div className='container'id="container">
         <div className='navbar'>
-              <Navbar/>
+              <Navbar />
             </div>
           <section className='section-1'id="section-1">
               <About/>
