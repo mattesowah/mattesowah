@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import './App.css'
 import Navbar from './components/navbar/navbar'
 import About from './components/about/about'
@@ -10,6 +10,14 @@ import Store from './components/store/store'
 
 
 const App = () => {
+  
+  const myRef = useRef();
+useEffect(() => {
+  console.log('myRef', myRef.current)
+}, [])
+
+
+
 
   const [scrollTop, setScrollTop] = useState(0);
 
@@ -54,7 +62,7 @@ const App = () => {
              <section className='section-3'id="section-3">
                <Creativedirection/>
               </section>
-              <section className='section-4'id="section-4">
+              <section ref={myRef} className='section-4'id="section-4">
                 <Store/>
               </section> 
               <section className='section-5'id="section-5">
