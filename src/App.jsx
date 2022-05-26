@@ -46,15 +46,6 @@ useEffect(() => {
   }, []);
 
 
-function changeBg(){
-  var scrollValue = window.scrollY;
-  console.log(scrollValue);
-
-}
-
-window.addEventListener('scroll', changeBg);
-
-
   return (
     <>
           
@@ -65,7 +56,7 @@ window.addEventListener('scroll', changeBg);
           <div className="scroll-progress" id="scroll-progress" style={{ width: `${scrollTop}%` }} ></div>
         
         <div className='container'id="container">
-        <div className='navbar'>
+        <div className='navbar' id="navbar">
               <Navbar />
             </div>
           <section className='section-1'id="section-1">
