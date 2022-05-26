@@ -72,7 +72,7 @@ const App = () => {
     </div>
        
       <div className='navlinks'>
-        <p ref={myRef} className='navitem'><a  className='nav-section' href='https://github.com/mattesowah' ><span>ABOUT</span></a></p>
+        <p  className='navitem'><a  className='nav-section' href='https://github.com/mattesowah' >{ visibleElement ? 'WHITE' : 'BLACK' }</a></p>
         <p className='navitem'><a  className='nav-section'  href='https://github.com/mattesowah' >ENGINEERING</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CREATIVE DIRECTION</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >STORE</a></p>
