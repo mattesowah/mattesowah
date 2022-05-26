@@ -1,29 +1,26 @@
 import React, { useEffect, useState, useRef } from 'react'
 import './App.css'
-import Navbar from './components/navbar/navbar'
 import About from './components/about/about'
 import Engineering from './components/engineering/engineering'
 import Creativedirection from './components/creativedirection/creativedirection'
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer'
 import Store from './components/store/store'
+import { useInView } from 'react-hook-inview'
 
 
 const App = () => {
-  
-  const myRef = useRef();
-  const [visibleElement, setVisibleElement] = useState();
-  console.log('visibleElement', visibleElement)
+ const myRef = useRef();
+ const [visibleElement, setvisibleElement] = useState();
 
-useEffect(() => {
-  const observer = new IntersectionObserver((entries) => {
-    const entry = entries [0];
-    setVisibleElement(entry.isIntersecting)
-  })
-  observer.observe(myRef.current);
-}, [])
-
-
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      setvisibleElement(entry.isIntersecting)
+    })
+    observer.observe(myRef.current);
+  }, [])
+ 
 
 
   const [scrollTop, setScrollTop] = useState(0);
@@ -57,7 +54,33 @@ useEffect(() => {
         
         <div className='container'id="container">
         <div className='navbar' id="navbar">
-              <Navbar />
+        <div>
+       <div className='icons'>
+        <div className="logo1">
+        <img className="logo" src="/assets/logo.svg" alt="Logo"/>
+       </div>
+
+      
+
+      <div className='like'>
+        <img  className='likeicon' src="/assets/like.svg" alt="Like"/>
+      </div>
+
+      <div className='search'>
+        <img className='searchicon' src="/assets/search.svg" alt="Search"/>    
+      </div> 
+
+    </div>
+       
+      <div className='navlinks'>
+        <p className='navitem'><a  className='nav-section' href='https://github.com/mattesowah' >{ visibleElement ? 'yes' : 'no' }</a></p>
+        <p className='navitem'><a  className='nav-section'  href='https://github.com/mattesowah' >ENGINEERING</a></p>
+        <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CREATIVE DIRECTION</a></p>
+        <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >STORE</a></p>
+        <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CONTACT</a></p>
+      </div>
+        
+       </div>
             </div>
           <section className='section-1'id="section-1">
               <About/>
