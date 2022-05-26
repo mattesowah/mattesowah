@@ -8,22 +8,11 @@
     height: 19px;
   }
  
-  .logo {
-    filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
-  }
-
+ 
 .searchicon {
   height: 21px;
 }  
 
-.likeicon {
-  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
-  height: 20px;
-}
-
-.searchicon{
-  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
-}
 
 .search {
   padding-top: 30px;
@@ -45,12 +34,14 @@
 .navitem {
     margin: 2px 20px;
     font-size: 12px;
+    color: black;
 }
 
 .navlinks {
   text-decoration: none;
   font-family: Helveticas;
   z-index: 999;
+  color: black;
 }
 
 .nav-section{
