@@ -6,7 +6,6 @@ import Creativedirection from './components/creativedirection/creativedirection'
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer'
 import Store from './components/store/store'
-import { useInView } from 'react-hook-inview'
 
 
 const App = () => {
@@ -73,7 +72,7 @@ const App = () => {
     </div>
        
       <div className='navlinks'>
-        <p className='navitem'><a  className='nav-section' href='https://github.com/mattesowah' >{ visibleElement ? 'yes' : 'no' }</a></p>
+        <p ref={myRef} className='navitem'><a  className='nav-section' href='https://github.com/mattesowah' ><span>ABOUT</span></a></p>
         <p className='navitem'><a  className='nav-section'  href='https://github.com/mattesowah' >ENGINEERING</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CREATIVE DIRECTION</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >STORE</a></p>
