@@ -93,3 +93,7 @@ span {
   font-weight: 900;
 };
 
+.scrolling-active {
+  color: black;
+}
+
