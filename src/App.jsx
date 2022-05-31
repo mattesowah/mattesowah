@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
+import classNames from 'classnames';
 import './App.css'
 import About from './components/about/about'
 import Engineering from './components/engineering/engineering'
@@ -71,8 +72,9 @@ const App = () => {
 
     </div>
        
+     
       <div className='navlinks'>
-        <p  className='navitem'><a  className='nav-section' href='https://github.com/mattesowah' >{ visibleElement ? 'WHITE' : 'BLACK' }</a></p>
+        <p ref={myRef}  className='navitem'><span className={`${whitenav} ${visibleElement ? whitenav : ''}`}><a  className='nav-section' href='https://github.com/mattesowah' >ABOUT</a></span></p>
         <p className='navitem'><a  className='nav-section'  href='https://github.com/mattesowah' >ENGINEERING</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >CREATIVE DIRECTION</a></p>
         <p className='navitem'><a className='nav-section'  href='https://github.com/mattesowah' >STORE</a></p>

@@ -154,11 +154,11 @@ span {
   color: black;
 }
 
-.changeColor .logo {
-  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
-}
-
 nav {
   
   transition: 200ms ease-in-out;
+}
+
+.whitenav {
+  filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(246deg) brightness(104%) contrast(102%);
 }
