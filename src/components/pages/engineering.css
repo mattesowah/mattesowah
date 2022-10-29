@@ -1,0 +1,45 @@
+.engineeringpage {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow-y: hidden;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: 0.75s;
+    transition: transform 2s ease;
+    opacity: 0;
+}
+
+  .Drender {
+    z-index: 999;
+    margin-top: -150px;
+    padding-right: 90px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: 0.75s;
+    transition: transform 2s ease;
+    opacity: 0;
+
+
+  }
+
+  .introvideo {
+    z-index: 0;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  .mespeaking {
+    padding-top: 250px;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: 0.75s;
+    transition: transform 2s ease;
+    opacity: 0;
+  }

@@ -5,10 +5,13 @@
   justify-content: center;
   align-items: center;
   font-size: 12px;
-  padding-top: 65px;
-
 };
 
+
+.empty {
+  margin: 500px;
+  color: white;
+}
 
 .footer-link {
     text-decoration: none;
@@ -25,5 +28,7 @@ a {
     color: black;
 };
 
-
+.whole-footer { 
+  padding: 0 !important;
+ }
 
