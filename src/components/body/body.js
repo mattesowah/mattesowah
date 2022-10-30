@@ -15,7 +15,7 @@ const body = () => (
     anchors={anchors}
     lockAnchors={true}
     navigation={false}
-    scrollingSpeed={1200}
+    scrollingSpeed={1000}
     loopBottom={true}
     autoScrolling={true}
     scrollBar={true}
