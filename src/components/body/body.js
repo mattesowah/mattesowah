@@ -13,7 +13,7 @@ const anchors = ["about", "engineering", "creativedirection", "store", "contact"
 const body = () => (
   <ReactFullpage
     anchors={anchors}
-    licenseKey= {'YOUR_KEY_HERE'}
+    licenseKey= {'KHL56-4R4HI-8K62I-HPR56-QPXNO'}
     lockAnchors={true}
     navigation={false}
     scrollingSpeed={1100}
