@@ -16,7 +16,7 @@ const body = () => (
     licenseKey= {'YOUR_KEY_HERE'}
     lockAnchors={true}
     navigation={false}
-    scrollingSpeed={900}
+    scrollingSpeed={1100}
     loopBottom={true}
     autoScrolling={true}
     scrollBar={true}
