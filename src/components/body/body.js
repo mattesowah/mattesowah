@@ -13,6 +13,7 @@ const anchors = ["about", "engineering", "creativedirection", "store", "contact"
 const body = () => (
   <ReactFullpage
     anchors={anchors}
+    lockAnchors={true}
     navigation={false}
     scrollingSpeed={1200}
     loopBottom={true}
