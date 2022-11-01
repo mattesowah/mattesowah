@@ -17,6 +17,7 @@
     text-decoration: none;
     display: inline-block;
     color: black;
+    padding: 0px 200px !important;
     
 }
 
@@ -29,6 +30,6 @@ a {
 };
 
 .whole-footer { 
-  padding: 20px !important;
+  padding: 200px !important;
  }
 
