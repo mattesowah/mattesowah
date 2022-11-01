@@ -57,7 +57,7 @@ const body = () => (
     <div align="center" className="section">
       <Contact/>
     </div>
-    <div data-percentage="10"  className="section">
+    <div className="section" data-percentage="30" data-centered="false">
       <Footer/>
     </div>
   </div>
