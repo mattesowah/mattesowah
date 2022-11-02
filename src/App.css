@@ -330,7 +330,7 @@ nav {
 
 @keyframes zoomIn {
   0%{  }
-  100%{ transform: scale(1.4) translatey(200px);}
+  100%{ transform: scale(1.4) translatey(25px);}
 }
 
 
