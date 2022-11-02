@@ -499,7 +499,7 @@ input {
   justify-content: center;
   opacity: 0;
   animation: fadeIn 2s ease forwards;
-  animation-delay: 11s;
+  animation-delay: 9s;
   transition: transform 2s ease;
   opacity: 0;
 }
@@ -512,7 +512,7 @@ input {
   justify-content: center;
   opacity: 0;
   animation: fadeIn 2s ease forwards;
-  animation-delay:17s;
+  animation-delay:15s;
   transition: transform 2s ease;
   opacity: 0;
 }
