@@ -8,7 +8,7 @@ const about = () => {
 
   return (
     <>
-      <div className='aboutpage'>
+      <div align="center" className='aboutpage'>
         <img className="aboutanimation" id="aboutanimation" src="/assets/a.jpg" alt="aboutanimation" />
       </div>
       <div align="center" className='scrolldownaction'>
