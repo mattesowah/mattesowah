@@ -303,7 +303,8 @@ nav {
 .aboutpage {
   height: 600px;
   padding-bottom: 38px;
-  padding-top: 100px;
+  
+  
   justify-content: center;
   align-items: center;
   display: flex;
@@ -329,7 +330,7 @@ nav {
 
 @keyframes zoomIn {
   0%{  }
-  100%{ transform: scale(1.4) translatey(15px);}
+  100%{ transform: scale(1.4) translatey(200px);}
 }
 
 
