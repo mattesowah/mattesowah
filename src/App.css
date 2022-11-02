@@ -255,7 +255,6 @@ nav {
 .aboutcontainer {
   height: 600px;
   overflow: hidden;
-  padding-top: 90px;
 }
 
 .creativedirectioncontainer {
@@ -290,6 +289,8 @@ nav {
   height: 600px;
   animation: zoomIn 2s ease forwards;
   animation-delay: 2s;
+  
+  padding-top: 200px;
   transition: transform 2s ease;
   margin-top: -27px;
 }
