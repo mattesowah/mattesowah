@@ -512,7 +512,7 @@ input {
   justify-content: center;
   opacity: 0;
   animation: fadeIn 2s ease forwards;
-  animation-delay:15s;
+  animation-delay:13s;
   transition: transform 2s ease;
   opacity: 0;
 }
