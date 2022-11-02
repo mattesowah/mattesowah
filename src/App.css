@@ -330,7 +330,7 @@ nav {
 
 @keyframes zoomIn {
   0%{  }
-  100%{ transform: scale(1.4) translatey(25px);}
+  100%{ transform: scale(1.4) translatey(50px);}
 }
 
 
@@ -486,7 +486,7 @@ input {
   justify-content: center;
   opacity: 0;
   animation: fadeIn 2s ease forwards;
-  animation-delay: 6s;
+  animation-delay: 5s;
   transition: transform 2s ease;
   opacity: 0;
 }
@@ -499,7 +499,7 @@ input {
   justify-content: center;
   opacity: 0;
   animation: fadeIn 2s ease forwards;
-  animation-delay: 13s;
+  animation-delay: 11s;
   transition: transform 2s ease;
   opacity: 0;
 }
@@ -512,7 +512,7 @@ input {
   justify-content: center;
   opacity: 0;
   animation: fadeIn 2s ease forwards;
-  animation-delay:19s;
+  animation-delay:17s;
   transition: transform 2s ease;
   opacity: 0;
 }
