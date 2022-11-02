@@ -289,8 +289,7 @@ nav {
   height: 600px;
   animation: zoomIn 2s ease forwards;
   animation-delay: 2s;
-  
-  padding-top: 200px;
+  padding-top: 50px;
   transition: transform 2s ease;
   margin-top: -27px;
 }
