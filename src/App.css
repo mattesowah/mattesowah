@@ -303,6 +303,7 @@ nav {
 .aboutpage {
   height: 600px;
   padding-bottom: 38px;
+  padding-top: 100px;
   justify-content: center;
   align-items: center;
   display: flex;
