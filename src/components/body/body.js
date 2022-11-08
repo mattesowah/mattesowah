@@ -10,8 +10,13 @@ import ReactFullpage from "@fullpage/react-fullpage";
 
 const anchors = ["about", "engineering", "creativedirection", "store", "contact", "social" ];
 
+const pluginWrapper = () => {
+  require('./static/fullpage.offsetSections.min');
+};
+
 const body = () => (
   <ReactFullpage
+    pluginWrapper = {pluginWrapper}
     anchors={anchors}
     licenseKey= {'KHL56-4R4HI-8K62I-HPR56-QPXNO'}
     lockAnchors={true}
@@ -22,7 +27,7 @@ const body = () => (
     scrollBar={true}
     scrollOverflow={false}
     offsetSections={true}
-    offsetSectionsKey={'TTZiV0YwZEdWemIzZGhhQzVqYjIwPXpNX3o0MmIyWm1jMlYwVTJWamRHbHZibk09MXQ5'}
+    offsetSectionsKey={'A8E79B94-52CD4FFB-ADC4D0DC-16F52EE9'}
     navigationTooltips={anchors}
     navigat
     sectionsColor={["#fffff","#fffff","#fffff" ]}
