@@ -30,15 +30,19 @@ const [query, setQuery] = useState("");
 window.onload=function(){
   var search = document.getElementById('searchicon');
   var like = document.getElementById('likeicon');
+  var bag = document.getElementById('bagicon');
   var modalBg = document.getElementById('modal-bg');
-  var likemodalBg = document.getElementById('likemodal-bg')
+  var likemodalBg = document.getElementById('likemodal-bg');
+  var bagmodalBg = document.getElementById('bagmodal-bg');
   var body = document.querySelector("html, body");
   var modalClose = document.getElementById('modal-close');
   var likemodalClose = document.getElementById('likemodal-close');
+  var bagmodalClose = document.getElementById('bagmodal-close');
   var logo = document.getElementById('logo');
   var input = document.getElementById('input');
   var lists = document.getElementById('lists');
   var portrait = document.getElementById('portrait');
+  
 
 portrait.addEventListener('click', function(){
   portrait.classList.add('zoom-out')
@@ -73,6 +77,19 @@ likemodalClose.addEventListener('click' ,function(){
 setTimeout(function() {
   likemodalBg.classList.remove('bg-active')
   likemodalBg.classList.remove('bg-inactive')
+  
+}, 500)
+});
+bag.addEventListener('click' ,function(){
+  bagmodalBg.classList.add('bg-active')
+  body.classList.add('modal-open')
+});
+bagmodalClose.addEventListener('click' ,function(){
+  bagmodalBg.classList.add('bg-inactive')
+  body.classList.remove('modal-open')
+setTimeout(function() {
+  bagmodalBg.classList.remove('bg-active')
+  bagmodalBg.classList.remove('bg-inactive')
   
 }, 500)
 });
@@ -130,7 +147,7 @@ window.addEventListener('keydown', myFunction)
               <ul className='lists' id='lists'>
                 {Projects.filter(project=>project.name.toLocaleLowerCase().includes(query)
                 ).map((project) => (
-                <a href="/"><li key={project.id} className='searchResults'>{project.name}</li></a>
+                <a href="/about"><li key={project.id} className='searchResults'>{project.name}</li></a>
                 ))}
               </ul>
               <span className="modal-close" id="modal-close">X</span>
@@ -144,6 +161,12 @@ window.addEventListener('keydown', myFunction)
             </div>  
       </div>
           
+      <div className='bagmodal-bg' id='bagmodal-bg'>
+            <div className='bagmodal'>
+              <h5 className='noitems'>(0) ITEMS IN YOUR BAG</h5>
+              <span className="bagmodal-close" id="bagmodal-close">X</span>
+            </div>  
+      </div>
           
    
            
