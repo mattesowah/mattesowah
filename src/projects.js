@@ -1,5 +1,8 @@
 export const Projects = [
-    
+ {
+    "id": 10,
+    "name": "TRENDING"
+},    
 {
     "id": 1,
     "name": "Heatmap"
