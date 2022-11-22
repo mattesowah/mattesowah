@@ -145,7 +145,7 @@ window.addEventListener('keydown', myFunction)
             <div className='modal' id="modal">
              <input id="input" type="text" placeholder='SEARCH' onChange={e=> setQuery(e.target.value)}/>
               <ul className='lists' id='lists'>
-              <li className='Trending'>Trending Projects</li>
+              <li className='Trending'>Trending</li>
                 {Projects.filter(project=>project.name.toLocaleLowerCase().includes(query)
                 ).map((project) => (
                 

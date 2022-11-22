@@ -577,6 +577,7 @@ input {
 
 .searchResults {
   font-size: xx-small;
+  padding-bottom: 20px;
 }
 
 .Trending {
@@ -586,6 +587,4 @@ input {
   font-weight: 900;
   padding-bottom: 10px;
   cursor: default;
-
-
 }
