@@ -158,7 +158,7 @@ window.addEventListener('keydown', myFunction)
 
       <div className='likemodal-bg' id='likemodal-bg'>
             <div className='likemodal'>
-              <h5 className='nolikes'>YOU HAVE NO LIKED ITEMS</h5>
+              <h5 className='nolikes'>(0) YOU HAVE NO LIKED ITEMS</h5>
               <span className="likemodal-close" id="likemodal-close">X</span>
             </div>  
       </div>
