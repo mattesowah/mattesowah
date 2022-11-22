@@ -148,8 +148,10 @@ window.addEventListener('keydown', myFunction)
               <li className='Trending'>Trending</li>
                 {Projects.filter(project=>project.name.toLocaleLowerCase().includes(query)
                 ).map((project) => (
-                
-                <a href="/about"><li key={project.id} className='searchResults'>{project.name}</li></a>
+                <div>
+                  <a href="/about"><li key={project.id} className='searchResults'>{project.name}</li></a>
+                  <a href="/store"><li key={project.id} className='searchResults'>{project.name}</li></a>
+                </div>
                 ))}
               </ul>
               <span className="modal-close" id="modal-close">X</span>
