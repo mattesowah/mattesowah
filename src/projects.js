@@ -1,11 +1,8 @@
 export const Projects = [
- {
-    "id": 10,
-    "name": "TRENDING"
-},    
+    
 {
     "id": 1,
-    "name": "Heatmap"
+    "name": "Heatmap app"
 },
 {
     "id": 2,
@@ -17,9 +14,14 @@ export const Projects = [
 },
 {
     "id": 4,
-    "name": "ManeHookUp"
+    "name": "Mike Vero"
 },
 {
-    "id": 8,
-    "name": "Web 3.0"
-},]
+    "id": 5,
+    "name": "Heatmap"
+},
+{
+    "id": 6,
+    "name": "A17labs Design"
+}
+]
