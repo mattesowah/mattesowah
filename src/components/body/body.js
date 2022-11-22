@@ -57,7 +57,9 @@ const body = () => (
       </Link>
     </div>
     <div  className="section">
-      <Store/>
+    <Link to={`/store`}> 
+            <Store/>
+      </Link>
     </div>
     <div align="center" className="section">
       <Contact/>

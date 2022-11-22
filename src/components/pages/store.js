@@ -4,7 +4,7 @@ import './store.css'
 const store = () => {
   return (
     <div className='storepage' >
-      <div><h1>COMING SOON</h1></div>
+      <div><video   loop={true} autoPlay="autoplay"  muted className='originscollectionvid' src="/assets/originscollection.mp4" type="video./mp4" /></div>
     </div>
   )
 }

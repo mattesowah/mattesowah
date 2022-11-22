@@ -31,3 +31,13 @@
   .originscollection {
     position:relative; 
   }
+
+  .originscollectionvid {
+    position:relative; 
+    display: flex;
+    height: 900px;
+    margin-top: -150px;
+    width: 100%;
+  }
+
+  
