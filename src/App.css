@@ -575,3 +575,13 @@ input {
   
 }
 
+.searchResults {
+  font-size: xx-small;
+}
+
+.Trending {
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+
+}
