@@ -23,5 +23,9 @@ export const Projects = [
 {
     "id": 6,
     "name": "A17labs Design"
-}
+},
+{
+    "id": 7,
+    "name": "Origins Collection"
+},
 ]
