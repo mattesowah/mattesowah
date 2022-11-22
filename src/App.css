@@ -584,5 +584,6 @@ input {
   list-style: none;
   text-transform: uppercase;
   font-weight: 900;
+  padding-bottom: 10px;
 
 }
