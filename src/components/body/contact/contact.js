@@ -23,7 +23,7 @@ const contact = () => {
             Blender and many more.
           </p>
           <p className='p5'>
-              In 2021 Matte would enforce his skill in design through learning to code in JavaScript and develop scalable projects that can be tested & maintained.   
+              In 2021 Matte would go on to enforce his skills in design through learning to code in JavaScript and develop scalable projects that can be tested & maintained.   
           </p>
           <p className='p6'>
               For Software Development and Creative Direction enquiries contact Matte at
