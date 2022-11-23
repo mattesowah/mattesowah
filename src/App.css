@@ -79,6 +79,7 @@ html, body {
   font-family: Helvetica, sans-serif;
   align-items: center;
   padding-top: 55px;
+  transform: translateY(40px)
 };
 
 ul {
