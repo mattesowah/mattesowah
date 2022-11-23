@@ -28,6 +28,7 @@ const body = () => (
     scrollOverflow={false}
     offsetSections={true}
     offsetSectionsKey={'TTZiV0YwZEdWemIzZGhhQzVqYjIwPXpNX3o0MmIyWm1jMlYwVTJWamRHbHZibk09MXQ5'}
+    credits={{enabled : false}}
     navigationTooltips={anchors}
     navigat
     sectionsColor={["#fffff","#fffff","#fffff" ]}
