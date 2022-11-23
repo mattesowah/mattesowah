@@ -10,7 +10,7 @@ const contact = () => {
         </div>
         <div className='contactinfo'>
           <p className='p1'>
-            Matte Sowah is a London based Programmer & Creative Director specialising in 3D motion graphics and Web 3.0 Blockchain development.
+            Matte Sowah is a London based Programmer & Creative Director specialising in 3D motion graphics.
           </p>
           <p className='p2'>
             His career kicked off teaching himself photoshop from a young age of 14. Ever since Matte has become accustomed to continuously upskiling his 
