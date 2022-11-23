@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 11px;
+  margin-top: -20px;
 };
 
 
@@ -31,5 +32,6 @@ a {
 };
 
 .whole-footer { 
+ padding-top: -200px;
  }
 
