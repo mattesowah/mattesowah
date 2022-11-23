@@ -150,7 +150,6 @@ window.addEventListener('keydown', myFunction)
                 ).map((project) => (
                 <div>
                   <a href="/about"><li key={project.id} className='searchResults'>{project.name}</li></a>
-                  <a href="/store"><li key={project.id} className='searchResults'>{project.name}</li></a>
                 </div>
                 ))}
               </ul>
