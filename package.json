@@ -6,7 +6,7 @@
   "dependencies": {
     "-": "0.0.1",
     "@ap.cx/react-fullpage": "^0.3.0",
-    "@fullpage/react-fullpage": "^0.1.30",
+    "@fullpage/react-fullpage": "^0.1.31",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
