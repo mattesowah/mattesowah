@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState, useRef } from 'react'
 import './App.css'
-import { Routes ,Route } from 'react-router-dom';
+import { Routes , Route, useLocation, } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
 import Header from './components/header/header';
@@ -20,7 +20,10 @@ const App = () => {
 
 const [query, setQuery] = useState("");
 
-  
+const location = useLocation();
+console.log(location);
+
+
 
 
   console.log(query)
